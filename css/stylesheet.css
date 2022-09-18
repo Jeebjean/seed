@@ -2814,6 +2814,73 @@ p.replay-all::after {
   border-bottom: 2px solid var(--secundary-color);
 }
 
+/* Nos Enseignes */
+
+.accordions {
+  border-top: 1px solid #d9e5e8;
+  margin-top: 50px;
+}
+
+.accordions li {
+  border-bottom: 1px solid #d9e5e8;
+  position: relative;
+  list-style-type: none;
+}
+
+.accordions li p {
+  display: none;
+  padding: 10px 20px 20px;
+  font-size: 25px;
+  font-size: 400 !important;
+  line-height: 2;
+  color: #737373;
+}
+
+.accordions a {
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  display: block;
+  cursor: pointer;
+  font-weight: 600;
+  line-height: 3;
+  font-size: 35px;
+  user-select: none;
+  color: var(--primary-color);
+}
+
+.accordions li a.active {
+  color: var(--secundary-color) !important;
+}
+
+.accordions a.hover {
+  color: var(--secundary-color) !important;
+}
+
+.accordions a:after {
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid var(--secundary-color) !important;
+  border-bottom: 2px solid var(--secundary-color) !important;
+  position: absolute;
+  right: 5px;
+  content: " ";
+  top: 50px;
+  transform: rotate(-45deg);
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  color: var(--secundary-color) !important;
+}
+
+.accordions a.active:after {
+  transform: rotate(45deg);
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  border-right: 2px solid var(--secundary-color);
+  border-bottom: 2px solid var(--secundary-color);
+}
+
 .faq-box {
   -webkit-box-shadow: 0 0 11px 0 rgba(6, 22, 58, 0.14);
   -moz-box-shadow: 0 0 11px 0 rgba(6, 22, 58, 0.14);
@@ -3493,4 +3560,8 @@ p.categorie {
   color: #fff;
   margin-top: -5px;
   margin-bottom: 0px;
+}
+
+.popup_contact {
+  display: none;
 }
