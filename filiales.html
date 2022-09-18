@@ -115,7 +115,7 @@
                             <a href="masonry-gallery.html" class="nav-item nav-link">Galerie</a>
                         </li>
                         <li class="dropdown">
-                            <a href="contact_benin.html" class="nav-item nav-link">Contact</a>
+                            <span class="nav-item nav-link contact_pop" onclick="openNav()">Contact<span>
                         </li>
                     </ul>
                 </div>
@@ -259,7 +259,7 @@
                     </ul>
                     <ul class="quick-links right-layer">
                         <li><a href="enseigne.html">Nos Enseignes</a></li>
-                        <li><a href="contact_benin.html">Contact</a></li>
+                        <li><span class="contact_pop" onclick="openNav()">Contact<span></li>
                         <li><a href="masonry-gallery.html">Galerie</a></li>
                     </ul>
                 </div>
@@ -294,6 +294,109 @@
         </div>
     </footer>
     <!-- FOOTER END -->
+
+    <section id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <!-- CONTACT BOX START -->
+        <div class="bg-wrapper contact-wrapper mb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="cw-box">
+                            <figure class="cw-icon">
+                                <img src="images/icons/placeholder.png" alt="">
+                            </figure>
+                            <p>RCCM RB / COT / 14 B 11807</p>
+                            <p>Houéyihô, Carré 1140 - 01 BP 7379</p>
+                            <p>Cotonou, Benin</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 spacing-m-center">
+                        <div class="cw-box">
+                            <figure class="cw-icon">
+                                <img src="images/icons/telephone.png" alt="">
+                            </figure>
+                            <p>+229 66 63 01 01</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="cw-box">
+                            <figure class="cw-icon">
+                                <img src="images/icons/email.png" alt="">
+                            </figure>
+                            <p>benin@seedgroupe.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- CONTACT BOX END -->
+
+        <!-- CONTACT FORM START -->
+
+        <div class="container mt-5 mb-5">
+
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <div class="contact-title">
+                        <h3>Envoyer nous un message</h3>
+                        <p>World’s leading non-asset- based supply chain management companies, we design and implement
+                            industry-leading. We specialise in intelligent & effective search and believes business.</p>
+                    </div>
+                    <br />
+                    <form id="contact-form" method="post" action="">
+                        <div class="messages"></div>
+                        <div class="controls">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input id="form_name" type="text" name="name" class="form-control custom-form"
+                                            placeholder="*Nom" required="required" data-error="Firstname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input id="form_email" type="email" name="email"
+                                            class="form-control custom-form" placeholder="*Adresse Email"
+                                            required="required" data-error="Valid email is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <input id="form_phone" type="tel" name="phone" class="form-control custom-form"
+                                            placeholder="*Telephone">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <textarea id="form_message" name="message"
+                                            class="form-control message-form custom-form" placeholder="*Votre message"
+                                            rows="6" required="required"
+                                            data-error="Please,leave us a message."></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+                            <div class="row">
+                                <div class="col-md-12 btn-send">
+                                    <p><input type="submit" class="btn btn-washla" value="Envoyer message"></p>
+                                </div>
+                                <div class="col-sm-12">
+                                    <p class="required">
+                                        * Obligatoire
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!--SCROLL TOP START-->
     <a href="#0" class="cd-top">Top</a>

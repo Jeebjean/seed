@@ -3562,6 +3562,28 @@ p.categorie {
   margin-bottom: 0px;
 }
 
-.popup_contact {
-  display: none;
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  background-color: var(--paragraph-color);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 100px;
+}
+
+.contact_pop {
+  cursor: pointer;
+}
+
+.closebtn {
+  position: absolute;
+  top: 40px;
+  right: 65px;
+  font-size: 50px;
+  margin-left: 50px;
+  color: var(--secundary-color);
 }
