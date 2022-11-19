@@ -3388,7 +3388,7 @@ p.replay-all::after {
 
 /* Zoom In #1 */
 .zoom-in img {
-  width: 80%;
+  width: 40%;
   border-radius: 15px;
   -webkit-transform: scale(1);
   transform: scale(1);
@@ -3586,4 +3586,20 @@ p.categorie {
   font-size: 50px;
   margin-left: 50px;
   color: var(--secundary-color);
+}
+
+.partenaire_box {
+  height: 300px;
+  position: relative;
+  border: 3px solid red;
+}
+
+.partenaire {
+  /* position: absolute; */
+  border: 3px solid black;
+}
+
+.logo_enseigne {
+  display: flex;
+  border: 3px red solid;
 }
