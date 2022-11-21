@@ -452,6 +452,33 @@ p.right {
   position: relative;
 }
 
+.t_l {
+  background-image: url("../photo/tl1.jpg");
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.agro {
+  background-image: url("../photo/agro.JPEG");
+  height: 600px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.commerciale {
+  background-image: url("../photo/commercial.jpg");
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 .service::before {
   content: "";
   position: absolute;
@@ -461,9 +488,9 @@ p.right {
 }
 
 .business {
-  background-image: url("../photo/agrobussiness.jpg");
+  background-image: url("../photo/btp2.jpg");
   height: 600px;
-  background-position: center;
+  background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -3591,12 +3618,6 @@ p.categorie {
 .partenaire_box {
   height: 300px;
   position: relative;
-  border: 3px solid red;
-}
-
-.partenaire {
-  /* position: absolute; */
-  border: 3px solid black;
 }
 
 .logo_enseigne {
