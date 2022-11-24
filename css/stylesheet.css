@@ -462,7 +462,16 @@ p.right {
 }
 
 .agro {
-  background-image: url("../photo/agro.JPEG");
+  background-image: url("../photo/bg/production.JPEG");
+  height: 600px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.tourisme {
+  background-image: url("../photo/bg/tourisme!.JPEG");
   height: 600px;
   background-position: center top;
   background-repeat: no-repeat;
@@ -471,7 +480,7 @@ p.right {
 }
 
 .commerciale {
-  background-image: url("../photo/commercial.jpg");
+  background-image: url("../photo/bg/negoce2.JPEG");
   height: 600px;
   background-position: center;
   background-repeat: no-repeat;
