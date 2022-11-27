@@ -3633,3 +3633,9 @@ p.categorie {
   display: flex;
   border: 3px red solid;
 }
+
+.subtitle {
+  font-size: 13px;
+  font-weight: 200;
+  color: #0e377b;
+}
